@@ -1,0 +1,6 @@
+C-- Set Flag Based on table entry
+
+    fl_hide_mail =  COND #( WHEN line_exists(
+                lt_xref_val[ varname = c_email_ro_companycode
+                value1 = ls_vbrk_tmp-bukrs ] )
+                THEN abap_true ELSE abap_false ).
