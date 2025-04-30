@@ -5,3 +5,6 @@ lv_amt = COND #( WHEN lv_amt lt 0 THEN
                 IN lv_amt2 ) ELSE lv_amt ).
   
 **Output: 5
+
+
+C--Convert Negative Amount to Positive with condition.
