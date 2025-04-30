@@ -1,0 +1,7 @@
+DATA(lv_amt) =  -5.
+
+lv_amt = COND #( WHEN lv_amt lt 0 THEN
+               CONV #( LET lv_amt2 = lv_amt * -1
+                IN lv_amt2 ) ELSE lv_amt ).
+  
+**Output: 5
