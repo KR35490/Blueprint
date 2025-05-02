@@ -8,3 +8,4 @@ lv_amt = COND #( WHEN lv_amt lt 0 THEN
 
 
 C--Convert Negative Amount to Positive with condition.
+C-- Decimal are not working..
